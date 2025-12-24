@@ -1,0 +1,12 @@
+from sqlalchemy.dialects.mysql import insert
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from categories.models import Category
+from core.manager import BaseManager
+
+class CategoryManager(BaseManager):
+    async def create_category(self, db:AsyncSession):
+        stmt = insert(Category).values(
+
+        )
+        result = await db.execute(stmt)
