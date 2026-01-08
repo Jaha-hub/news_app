@@ -1,0 +1,613 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.0">
+  <diagram name="Страница-1" id="el1cMHaCZSr5NMvTSCzX">
+    <mxGraphModel dx="9507" dy="5233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-271" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=50;" value="авторизация" vertex="1">
+          <mxGeometry height="1660" width="970" x="70" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-272" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=25;" value="" vertex="1">
+          <mxGeometry height="1595" width="20" x="120" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-273" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="клиент" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-274" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JiZDIlv8GM6d_QiaVaiP-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-275" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="фронтенд" vertex="1">
+          <mxGeometry height="1595" width="100" x="300" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-276" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="бекенд" vertex="1">
+          <mxGeometry height="1595" width="100" x="570" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-277" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="БД" vertex="1">
+          <mxGeometry height="1595" width="100" x="850" y="1355" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-278" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-272" style="endArrow=classic;html=1;rounded=0;" target="JiZDIlv8GM6d_QiaVaiP-275" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="1420" />
+              <mxPoint x="260" y="1420" />
+              <mxPoint x="300" y="1420" />
+            </Array>
+            <mxPoint x="170" y="1600" as="sourcePoint" />
+            <mxPoint x="220" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-279" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 заполнение формы" vertex="1">
+          <mxGeometry height="30" width="130" x="160" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-280" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3 отправка формы" vertex="1">
+          <mxGeometry height="30" width="145" x="424.85" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-281" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="679.6600000000001" y="2244.7000000000003" />
+            </Array>
+            <mxPoint x="619.3266666666666" y="2244.7000000000003" as="sourcePoint" />
+            <mxPoint x="899.1599999999996" y="2244.7000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-282" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5 Проверяет на наличие" vertex="1">
+          <mxGeometry height="30" width="200" x="659.6600000000001" y="2210" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-283" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6 отправка пользователя" vertex="1">
+          <mxGeometry height="30" width="200" x="659.6599999999999" y="2250" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-284" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="479.83000000000004" y="2880" />
+            </Array>
+            <mxPoint x="619.3299999999999" y="2880" as="sourcePoint" />
+            <mxPoint x="349.61571428571426" y="2880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-285" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9 Отправляет токен" vertex="1">
+          <mxGeometry height="30" width="200" x="389.83000000000004" y="2840" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-286" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="250.5" y="2839.26" />
+            </Array>
+            <mxPoint x="350.0000000000009" y="2839.26" as="sourcePoint" />
+            <mxPoint x="130.13043478260897" y="2839.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-287" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10 Даёт доступ к системе" vertex="1">
+          <mxGeometry height="30" width="200" x="140.5" y="2789.26" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-288" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="350.2057142857143" y="1790" as="sourcePoint" />
+            <mxPoint x="619.9200000000001" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-289" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="JiZDIlv8GM6d_QiaVaiP-275" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="1470" />
+              <mxPoint x="430" y="1490" />
+            </Array>
+            <mxPoint x="349.7857142857142" y="1470" as="sourcePoint" />
+            <mxPoint x="350" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-290" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 валидирует формы" vertex="1">
+          <mxGeometry height="30" width="110" x="350" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-291" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="699.3300000000002" y="1880.83" />
+              <mxPoint x="699.5442857142859" y="1945" />
+            </Array>
+            <mxPoint x="619.0607692307692" y="1880.83" as="sourcePoint" />
+            <mxPoint x="619.5442857142859" y="1945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-292" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4 Валидирует форму" vertex="1">
+          <mxGeometry height="30" width="100" x="619.3300000000002" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-293" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="559.83" y="2460" />
+              <mxPoint x="559.83" y="2530" />
+            </Array>
+            <mxPoint x="619.3299999999999" y="2460" as="sourcePoint" />
+            <mxPoint x="619.3299999999999" y="2530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-294" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7 проверка пароля" vertex="1">
+          <mxGeometry height="40" width="110" x="499.83000000000004" y="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-295" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="559.83" y="2720" />
+              <mxPoint x="559.83" y="2790" />
+            </Array>
+            <mxPoint x="619.8299999999999" y="2720" as="sourcePoint" />
+            <mxPoint x="619.8299999999999" y="2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-296" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8 Генерирует токен" vertex="1">
+          <mxGeometry height="40" width="110" x="499.83000000000004" y="2680" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-297" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=40;" value="alt валидация" vertex="1">
+          <mxGeometry height="300" width="890" x="72.13999999999999" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-298" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.1 отправляет ошибку" vertex="1">
+          <mxGeometry height="30" width="150" x="160.34000000000003" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-299" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-297" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=-0.003;exitY=0.468;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" target="JiZDIlv8GM6d_QiaVaiP-297" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="1640" as="sourcePoint" />
+            <mxPoint x="460" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-300" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=40;" value="alt валидация" vertex="1">
+          <mxGeometry height="360" width="890" x="72.13999999999999" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-301" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-300" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.527;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" target="JiZDIlv8GM6d_QiaVaiP-300" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="1920" as="sourcePoint" />
+            <mxPoint x="470" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-302" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(default, #f50a0a);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(250, 36, 28));&quot;&gt;[Не Валидный]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="80.5" y="2030" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-303" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(default, #f50a0a);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(250, 36, 28));&quot;&gt;[Не Валидный]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="72.13999999999999" y="1599" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-304" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.1 ошибка валидации" vertex="1">
+          <mxGeometry height="30" width="90" x="440" y="2060" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-305" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-276" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="JiZDIlv8GM6d_QiaVaiP-275" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="2100" />
+            </Array>
+            <mxPoint x="440" y="2140" as="sourcePoint" />
+            <mxPoint x="490" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-306" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.2 ошибка валидации" vertex="1">
+          <mxGeometry height="30" width="90" x="200" y="2080" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-307" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="2120" />
+            </Array>
+            <mxPoint x="350" y="2120" as="sourcePoint" />
+            <mxPoint x="120" y="2120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-308" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="frame" vertex="1">
+          <mxGeometry height="200" width="885" x="75" y="2198" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-309" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.997;entryY=0.361;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="75" y="2297.63" as="sourcePoint" />
+            <mxPoint x="952.3450000000003" y="2297.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-310" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(default, #f50a0a);" value="&lt;font color=&quot;#fa241c&quot;&gt;[Отсутствует]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="90" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-311" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6.1 отправка пользователя" vertex="1">
+          <mxGeometry height="30" width="200" x="385.00333333333356" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-312" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="899.53" y="2290" as="sourcePoint" />
+            <mxPoint x="619.7892592592596" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-313" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-276" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="629.7407407407404" y="2370" as="sourcePoint" />
+            <mxPoint x="350" y="2370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-314" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="frame" vertex="1">
+          <mxGeometry height="270" width="895" x="75" y="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-315" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-314" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.003;exitY=0.522;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="JiZDIlv8GM6d_QiaVaiP-314" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="76.79000000000013" y="2572.01" as="sourcePoint" />
+            <mxPoint x="968.21" y="2580.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-316" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(default, #f50a0a);" value="&lt;font color=&quot;#ff817a&quot;&gt;[Не правильный пароль ]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="150" x="90" y="2580" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-317" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(default, #f50a0a);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(250, 36, 28));&quot;&gt;[Валидный]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="80.5" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-318" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.1 ошибка авторизации" vertex="1">
+          <mxGeometry height="40" width="90" x="435.21000000000004" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-319" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-276" style="endArrow=classic;html=1;rounded=0;" target="JiZDIlv8GM6d_QiaVaiP-275" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="2690" as="sourcePoint" />
+            <mxPoint x="505.21000000000004" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-320" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="619.3299999999999" y="2650" as="sourcePoint" />
+            <mxPoint x="349.33000000000004" y="2650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-321" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7.2 ошибка авторизации" vertex="1">
+          <mxGeometry height="40" width="90" x="190.5" y="2610" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-322" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="2670" as="sourcePoint" />
+            <mxPoint x="127" y="2670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-323" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=30;" value="Регистрация" vertex="1">
+          <mxGeometry height="1660" width="1160" x="1210" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-324" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=25;" value="" vertex="1">
+          <mxGeometry height="1550" width="20" x="1300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-325" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="фронтенд" vertex="1">
+          <mxGeometry height="1550" width="100" x="1480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-326" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="бекенд" vertex="1">
+          <mxGeometry height="1550" width="100" x="1750" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-327" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="БД" vertex="1">
+          <mxGeometry height="1550" width="100" x="2020" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-328" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 заполнение формы" vertex="1">
+          <mxGeometry height="30" width="130" x="1340" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-329" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1610" y="460" />
+              <mxPoint x="1610" y="480" />
+            </Array>
+            <mxPoint x="1529.7857142857142" y="460" as="sourcePoint" />
+            <mxPoint x="1529.810344827586" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-330" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 валидирует формы" vertex="1">
+          <mxGeometry height="30" width="110" x="1530" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-331" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="405" />
+            </Array>
+            <mxPoint x="1309.810344827586" y="405" as="sourcePoint" />
+            <mxPoint x="1529.4999999999995" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-332" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;" value="валидация" vertex="1">
+          <mxGeometry height="240" width="870" x="1260" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-333" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-332" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.407;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;elbow=horizontal;" target="JiZDIlv8GM6d_QiaVaiP-332" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1560" y="480" as="sourcePoint" />
+            <mxPoint x="1610" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-334" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Валидный]" vertex="1">
+          <mxGeometry height="30" width="60" x="1310" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-335" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Не валидный]" vertex="1">
+          <mxGeometry height="20" width="90" x="1310" y="534" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-336" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.1 отправляет ошибку" vertex="1">
+          <mxGeometry height="30" width="140" x="1360" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-337" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3 отправка формы" vertex="1">
+          <mxGeometry height="30" width="145" x="1604.6442857142856" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-338" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1530" y="720" as="sourcePoint" />
+            <mxPoint x="1799.7142857142858" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-339" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880.539230769231" y="953.9000000000001" />
+              <mxPoint x="1880.7535164835167" y="1018.0700000000002" />
+            </Array>
+            <mxPoint x="1800.27" y="953.9000000000001" as="sourcePoint" />
+            <mxPoint x="1800.7535164835167" y="1018.0700000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-340" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4 Валидирует форму" vertex="1">
+          <mxGeometry height="30" width="100" x="1800.269230769231" y="913.0700000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-341" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=40;" value="alt валидация" vertex="1">
+          <mxGeometry height="670" width="930" x="1250" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-342" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.1.1 ошибка валидации" vertex="1">
+          <mxGeometry height="30" width="90" x="1620.27" y="855.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-343" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1670" y="890" />
+            </Array>
+            <mxPoint x="1800" y="890" as="sourcePoint" />
+            <mxPoint x="1530" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-344" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.1.2 ошибка валидации" vertex="1">
+          <mxGeometry height="30" width="90" x="1380" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-345" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="910" />
+            </Array>
+            <mxPoint x="1530" y="910" as="sourcePoint" />
+            <mxPoint x="1310" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-346" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1800.270344827586" y="925.3499999999999" as="sourcePoint" />
+            <mxPoint x="2070" y="925" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-347" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.2.1 отправляет запрос в котором отправляется данные что ввёл пользователь" vertex="1">
+          <mxGeometry height="40" width="260" x="1814.6599999999999" y="880.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-348" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2070" y="990" as="sourcePoint" />
+            <mxPoint x="1800.270344827586" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-349" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.2.2 возвращает ответ , если пользователя с таким юзернеймом нет то создать можно а если нет то нельзя" vertex="1">
+          <mxGeometry height="40" width="270" x="1809.6599999999999" y="940.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-350" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1860.46" y="1040.69" />
+              <mxPoint x="1860.92" y="1060.69" />
+            </Array>
+            <mxPoint x="1800.270344827586" y="1040.69" as="sourcePoint" />
+            <mxPoint x="1800.270344827586" y="1060.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-351" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="шифрует данные" vertex="1">
+          <mxGeometry height="30" width="60" x="1810" y="1010.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-352" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправляет данные в бд что бы он сохранил" vertex="1">
+          <mxGeometry height="30" width="250" x="1810" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-353" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1800.17" y="1090" as="sourcePoint" />
+            <mxPoint x="2069.8299999999995" y="1090.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-354" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2130.34" y="1120.69" />
+              <mxPoint x="2130.34" y="1140.69" />
+            </Array>
+            <mxPoint x="2070.000344827586" y="1120.69" as="sourcePoint" />
+            <mxPoint x="2070.000344827586" y="1140.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-355" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="сохраняет зашифрованые данные" vertex="1">
+          <mxGeometry height="70" width="90" x="2070" y="1050.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-356" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2070" y="1181" as="sourcePoint" />
+            <mxPoint x="1800.270344827586" y="1180.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-357" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправляет ответ то что база данных сохранил полученные данные" vertex="1">
+          <mxGeometry height="50" width="150" x="1870" y="1120.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-358" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправляет запрос фронту что бы он отправил пользователя на страницу с авторизацией" vertex="1">
+          <mxGeometry height="30" width="270" x="1530.27" y="1169.8600000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-359" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1800.1" y="1209.8600000000001" as="sourcePoint" />
+            <mxPoint x="1530.2666666666664" y="1209.8600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправляет пользователя по пути&lt;div&gt;что-бы пользователь авторизовался&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="220" x="1310" y="1240.69" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-361" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1530.27" y="1280.689230769231" as="sourcePoint" />
+            <mxPoint x="1310" y="1280.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-362" edge="1" parent="1" source="JiZDIlv8GM6d_QiaVaiP-324" style="endArrow=classic;html=1;rounded=0;entryX=0.995;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="JiZDIlv8GM6d_QiaVaiP-271" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1160" y="1310" as="sourcePoint" />
+            <mxPoint x="1210" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-363" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="пользователь отправляется по этому пути" vertex="1">
+          <mxGeometry height="40" width="190" x="1070" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-364" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=90;height=30;" value="смена пароля" vertex="1">
+          <mxGeometry height="1660" width="1160" x="1200" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-365" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1 заполнение формы , с токеном" vertex="1">
+          <mxGeometry height="30" width="130" x="1350.189655172414" y="2367" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-366" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1380.189655172414" y="2402" />
+            </Array>
+            <mxPoint x="1320" y="2402" as="sourcePoint" />
+            <mxPoint x="1539.6896551724135" y="2402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-367" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1620.2142857142858" y="2420" />
+              <mxPoint x="1620.2142857142858" y="2440" />
+            </Array>
+            <mxPoint x="1540" y="2420" as="sourcePoint" />
+            <mxPoint x="1540.0246305418718" y="2440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-368" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2 валидирует форму" vertex="1">
+          <mxGeometry height="30" width="110" x="1540.2142857142858" y="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-369" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Валидный]" vertex="1">
+          <mxGeometry height="30" width="60" x="1320.19" y="2335" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-370" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[Не валидный]" vertex="1">
+          <mxGeometry height="20" width="90" x="1320.19" y="2414" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-371" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.1 отправляет ошибку" vertex="1">
+          <mxGeometry height="30" width="140" x="1370.19" y="2445" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-372" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;" value="валидация" vertex="1">
+          <mxGeometry height="240" width="870" x="1270" y="2300" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-373" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправка нового пароля, вместе с токеном" vertex="1">
+          <mxGeometry height="30" width="145" x="1616.9342857142856" y="2570" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-374" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1542.29" y="2600" as="sourcePoint" />
+            <mxPoint x="1812.0042857142857" y="2600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-375" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="бекенд проверяет по токену есть ли пользователь&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="270.34" x="1811.2400000000002" y="2789.26" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-376" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1871.5800000000004" y="2819.26" />
+              <mxPoint x="1871.5800000000004" y="2859.26" />
+            </Array>
+            <mxPoint x="1811.7200000000003" y="2819.26" as="sourcePoint" />
+            <mxPoint x="1811.2466666666678" y="2859.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-377" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2081.5800000000004" y="2970" as="sourcePoint" />
+            <mxPoint x="1811.5800000000004" y="2970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-378" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1811.7466666666678" y="2898.4300000000003" as="sourcePoint" />
+            <mxPoint x="2081.58" y="2898.4300000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-379" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ищет пользователя по данным из токена" vertex="1">
+          <mxGeometry height="30" width="220" x="1841.5800000000004" y="2859.26" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-380" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="получает старый пароль пользователя и сверяет с новым паролем" vertex="1">
+          <mxGeometry height="30" width="270" x="1811.5800000000004" y="2919.26" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-381" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="проверка пароля" vertex="1">
+          <mxGeometry height="30" width="240" x="1809.6599999999999" y="2990" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-382" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1870.1799999999998" y="3020" />
+              <mxPoint x="1870.1799999999998" y="3070" />
+            </Array>
+            <mxPoint x="1810.1799999999998" y="3020" as="sourcePoint" />
+            <mxPoint x="1809.8466666666673" y="3070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-383" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="и отправляет это на фронт" vertex="1">
+          <mxGeometry height="30" width="150" x="1600.1899999999998" y="3080" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-384" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1809.85" y="3120" as="sourcePoint" />
+            <mxPoint x="1540.0166666666664" y="3120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-385" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="фронт отправляет виде алёрта то что пользователь успешно сменил пароль и возвращает на главную страницу" vertex="1">
+          <mxGeometry height="70" width="220" x="1320.1899999999998" y="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-386" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1539.6899999999998" y="3150" as="sourcePoint" />
+            <mxPoint x="1320.36" y="3150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-387" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=40;" value="alt валидация" vertex="1">
+          <mxGeometry height="663" width="870" x="1260" y="2667" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-388" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="валидирует данные" vertex="1">
+          <mxGeometry height="30" width="60" x="1819.3200000000002" y="2700" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-389" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1869.6600000000003" y="2730" />
+              <mxPoint x="1869.9933333333329" y="2770" />
+            </Array>
+            <mxPoint x="1810.1333333333328" y="2730" as="sourcePoint" />
+            <mxPoint x="1809.6600000000003" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-390" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;dashed=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1809.6299999999997" y="3269.45" as="sourcePoint" />
+            <mxPoint x="1539.9766666666662" y="3269.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-391" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="отправляем ошибку" vertex="1">
+          <mxGeometry height="30" width="270" x="1542.4499999999998" y="3224.87" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-392" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=-0.001;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="2130.87" y="3203.87" />
+            </Array>
+            <mxPoint x="2080.87" y="3204.87" as="sourcePoint" />
+            <mxPoint x="1260" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-393" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="не валидный" vertex="1">
+          <mxGeometry height="30" width="60" x="1370.87" y="3224.87" as="geometry" />
+        </mxCell>
+        <mxCell id="JiZDIlv8GM6d_QiaVaiP-394" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="валидный" vertex="1">
+          <mxGeometry height="30" width="60" x="1330" y="2700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
