@@ -45,7 +45,7 @@ async def create(
 ):
     """
     Endpoint создания Статьи
-    требует **авторизованного**, пользователя который имеет роль автора/админа
+    требует **авторизованного ** пользователя, который имеет роль автора/админа
     """
     response = await create_article(session, request, user.id)
     return response
