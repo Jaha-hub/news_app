@@ -2,10 +2,6 @@ import re
 from pydantic import Field, EmailStr, field_validator, model_validator, BaseModel
 from enum import Enum
 
-
-
-from core.models import IntIDMixin
-
 class RefreshToken(BaseModel):
     refresh_token: str
 
