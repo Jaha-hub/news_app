@@ -22,6 +22,7 @@ from core.models import Base
 from auth.models import User
 from categories.models import Category
 from article.models import Article
+from comment.models import Comment
 target_metadata = Base.metadata
 
 

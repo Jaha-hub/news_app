@@ -21,7 +21,9 @@ class ArticleCreate(ArticleBase):
 class ArticleUpdate(BaseModel):
     pass
 
+
 class ArticleStatusUpdate(BaseModel):
+    category_id: int = Field(ge=1)
     status: ArticlesStatusEnum
 
 class ArticleRead(ArticleBase):
