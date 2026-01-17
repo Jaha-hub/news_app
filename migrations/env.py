@@ -24,6 +24,8 @@ from categories.models import Category
 from article.models import Article
 from comment.models import Comment
 from complaint.models import Complaint
+from bookmark.models import Bookmark
+from media.models import ArticleImage
 target_metadata = Base.metadata
 
 
