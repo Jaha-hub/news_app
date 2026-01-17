@@ -9,6 +9,7 @@ from comment.services import get_comment
 from core.dependencies import get_db
 
 
+
 async def get_comment_or_404(
         comment_id: int,
         article: Article = Depends(get_article_or_404),
