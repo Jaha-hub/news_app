@@ -44,7 +44,7 @@ async def is_author(
     :return: моделька пользователя
     """
     # Зависим от того то пользователь авторизован или нет
-    if user.role not in [RoleEnum.author, RoleEnum.admin]:
+    if user.role not in [RoleEnum.author.value, RoleEnum.admin.value]:
         raise HTTPException(status_code=403, detail="Вы не имеете право создавать/обновлять статью")
     return user
 # Проверка на то что пользователь автор статьи
@@ -64,10 +64,8 @@ async def is_owner(
     """
     # Зависим от существования статьи
     # Зависим от того то пользователь авторизован или нет
-    if article.author_id != user.id or user.role != RoleEnum.admin:
+    if article.author_id != user.id or user.role != RoleEnum.admin.value:
         raise HTTPException(
             status_code=403,
             detail="Недостаточно прав"
         )
-
-

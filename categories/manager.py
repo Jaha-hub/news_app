@@ -5,7 +5,7 @@ from categories.models import Category
 from core.manager import BaseManager
 
 class CategoryManager(BaseManager):
-    async def create_category(self, db:AsyncSession):
+    async def create_с(self, db:AsyncSession):
         stmt = insert(Category).values(
             title=Category.title,
             description=Category.description,

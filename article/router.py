@@ -75,12 +75,7 @@ async def update(
         article: Article = Depends(get_article_or_404),
 ):
     """
-    Изменение Статья
-
-    :param request: Обновление Статьи
-    :param session: Сессия БД
-    :param article: Получение Статьи
-    :return: Ничего
+    Изменение Статьи
     """
 
     await update_article(session=session, article=article, request=request)
@@ -102,9 +97,7 @@ async def get(
         article: Article = Depends(get_article_or_404),
 ):
     """
-
-    :param article: получение статьи
-    :return: статью
+    получение статьи
     """
     return article
 
@@ -130,9 +123,6 @@ async def delete(
 ) -> None:
     """
     Удаление статьи
-    :param session: Сессия БД
-    :param article: получение статьи
-    :return: ничего
     """
     await delete_article(session, article=article)
 
@@ -159,9 +149,5 @@ async def patch(
 ):
     """
     Частичное обновление статьи
-    :param request: Обновление статуса статьи
-    :param session: Сессия БД
-    :param article: Получение статьи
-    :return: ничего
     """
     await update_article(session=session, article=article, request=request)
