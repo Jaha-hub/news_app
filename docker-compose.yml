@@ -22,9 +22,6 @@ services:
         - db 
       env_file: .env
          
-    api:
-        image: sanjar56/todo_app:0.0.1
-        ports:
-          - "8001:8000"
+
 volumes:
   db_data:
