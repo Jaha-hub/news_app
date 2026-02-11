@@ -1,0 +1,30 @@
+services:
+    # Название Контейнеров и из конфигурации
+    db:
+      image: postgres:16.11 # Образ
+      container_name: db
+      ports: # Портов может быть несколько соответственно передаём через -
+        - "5433:5432"
+      restart: always
+      # enviroment:
+      #   POSTGRES_DB: todo
+      env_file: .env
+      volumes: #Тома
+        - db_data:/var/lib/postgresql/data
+    backend:
+      build:
+        context: ./backend
+        dockerfile: Dockerfile
+      container_name: Backend
+      ports:
+        - "8000:8000"
+      depends_on:
+        - db 
+      env_file: .env
+         
+    api:
+        image: sanjar56/todo_app:0.0.1
+        ports:
+          - "8001:8000"
+volumes:
+  db_data:
